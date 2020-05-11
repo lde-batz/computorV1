@@ -6,7 +6,7 @@
 void    printReductEquation(t_computor_list *reductEquation) {
     t_computor_list *equation = reductEquation;
 
-    printf("             = ");
+    printf("           <=> ");
     if (equation->number == 0) {
         printf("0 = 0\n");
         equation->power = 0;

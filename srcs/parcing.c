@@ -165,7 +165,7 @@ t_computor_list *parcingEquation(char *equation) {
     free(equation);
     
     if (ft_arraystrlen(bothSideEquation) != 2) {
-        printf("ERROR!!! The equation must have one and only one '=' and something on each side.");
+        printf("ERROR!!! The equation must have one and only one '=' and something on each side.\n");
         freeDoubleChar(bothSideEquation);
         return NULL;
     }
