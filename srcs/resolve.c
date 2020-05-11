@@ -110,6 +110,5 @@ void    solveEquation(char *equation)
     } else if (maxPolynom == 2) {
         resolveEquationDegree2(reductEquation);
     }
-    freeT_computor(reductEquation);
 }
 

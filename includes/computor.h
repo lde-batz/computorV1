@@ -49,11 +49,11 @@ int             ft_strfind(char *str, char chr);
 int             ft_strfindlast(char *str, char chr);
 int             *ft_atoi_strict(char *str, int *nb);
 double          *ft_atof_strict(char *str, double *nb);
-double  ft_absf(double nb);
+double  		ft_absf(double nb);
 
 
-double  ft_powf(double nb, int power);
-double  ft_atof(const char *str);
+double  		ft_powf(double nb, int power);
+double  		ft_atof(const char *str);
 
 
 
