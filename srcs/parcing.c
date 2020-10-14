@@ -69,6 +69,7 @@ t_computor_list *reductionEquation(t_computor_list *leftSideEquation, t_computor
                 leftEquation = leftEquation->next;
             }
         }
+		rightEquation->number = -rightEquation->number;
         save = rightEquation;
         rightEquation = rightEquation->next;
         if (newPower == 1) {
